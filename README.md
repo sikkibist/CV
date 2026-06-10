@@ -28,7 +28,7 @@ An independent bulk RNA-seq analysis of therapy-induced senescence in human derm
 - Identified **2,579 DEGs** under PQQ senotherapeutic intervention
 - Full R visualization suite: PCA (PC1 = 38% variance), volcano plots, MA plots, hierarchical heatmaps
 
-**Stack:** Shell scripting, HISAT2, StringTie, R (DESeq2, ggplot2), Linux/HPC
+**Stack:** Shell scripting, HISAT2, StringTie, R (DESeq2, ggplot2), Linux
 
 ---
 
@@ -37,7 +37,7 @@ An independent bulk RNA-seq analysis of therapy-induced senescence in human derm
 | Area | Tools / Technologies |
 |---|---|
 | Bioinformatics | NGS analysis, Differential expression, Pipeline development |
-| Tools | FastQC, MultiQC, Trimmomatic, HISAT2, StringTie, DESeq2, BLAST |
+| Tools | FastQC, MultiQC, Trimmomatic, HISAT2, STAR, StringTie, DESeq2, BLAST, OMICSBOX |
 | Programming | Python, R, Perl, Shell scripting |
 | Systems | Linux/Unix, HPC environments, MySQL |
 
@@ -55,7 +55,7 @@ An independent bulk RNA-seq analysis of therapy-induced senescence in human derm
 
 - 📧 ritikazbist@gmail.com
 - 💼 [LinkedIn](https://linkedin.com/in/sikkibist)
-- 📄 [Download CV (PDF)](./Ritika_Bist_CV.pdf) ← *upload your PDF here*
+- 📄 [Download CV (PDF)](./Ritika_Bist_CV.pdf)
 
 ---
 
