@@ -1,62 +1,27 @@
-# Hi, I'm Ritika Bist 👋
+# Ritika Bist
 
-**MSc Bioinformatics student** at Banasthali Vidyapith | Currently training at ICAR-IASRI, New Delhi
+M.Sc. Bioinformatics student (Banasthali Vidyapith, 2025–2027) working across transcriptomics, structural bioinformatics, and applied ML for genomics. I build complete, reproducible pipelines end-to-end rather than running notebooks — from raw sequencing reads to interpreted biology.
 
-I build computational pipelines for biological data — primarily RNA-seq and NGS analysis — and I'm actively building toward ML applications in bioinformatics.
+**Currently:** looking for a dissertation placement (Dec 2026 – Jun 2027) in RNA-seq, single-cell genomics, or computational biology.
 
----
+## Projects
 
-## 🔬 What I Work On
+**[Transcriptomic Analysis of Therapy-Induced Senescence & PQQ Intervention](https://github.com/sikkibist/transcriptomic-analysis-senescence)**
+Independent 7-phase bulk RNA-seq pipeline (FastQC → Trimmomatic → HISAT2 → StringTie → DESeq2) on GEO dataset GSE290476. Identified 7,954 significant DEGs under bleomycin-induced senescence and 2,579 under PQQ senotherapeutic intervention, across 9 samples / 85,321 genes, 91–92% mapping rate.
 
-- **Transcriptomics** — bulk RNA-seq pipelines from raw FASTQ to differential expression and biological interpretation
-- **NGS pipelines** — reproducible, HPC-compatible workflows for genomics data
-- **Bioinformatics analysis** — DESeq2, pathway analysis, visualization (PCA, volcano plots, heatmaps)
-- **Building toward** — ML/AI applications in genomics and computational biology
+**[ATIP — AI-Assisted Transcriptomic Interpretation Platform](https://github.com/sikkibist/ATIP)** · [live demo](https://huggingface.co/spaces/sikkibist/ATIP)
+A Flask/Docker web tool that turns raw DESeq2 output into interactive volcano/MA/heatmap plots, Enrichr pathway enrichment, and downloadable PDF/DOCX reports — with an LLM interpretation layer (Groq API) that summarizes enrichment results in plain language.
 
----
+**[Automated GROMACS Pipeline for PHT1 Molecular Dynamics](https://github.com/sikkibist/MD_pipeline)**
+Reusable, batch-mode molecular dynamics pipeline built during a Summer Training at ICAR-IASRI. Ran 10 ns all-atom simulations on 33 PHT1 phosphate transporter protein systems (wild-type vs. SNP mutants, 3 crop species) with per-stage validation and zero pipeline failures across the full batch.
 
-## 📌 Featured Project
+## Skills
 
-### [Transcriptomic Analysis of Therapy-Induced Senescence & PQQ Intervention](https://github.com/sikkibist/transcriptomic-analysis-senescence)
+**Bioinformatics:** NGS analysis, differential expression, molecular dynamics simulation, pipeline development
+**Tools:** FastQC, MultiQC, Trimmomatic, HISAT2, StringTie, DESeq2, GROMACS, BLAST, OMICSBOX
+**Programming:** Python, R, Perl, Bash
+**Systems:** Linux/Unix, HPC environments, MySQL, XML, HTML
 
-An independent bulk RNA-seq analysis of therapy-induced senescence in human dermal fibroblasts (Dataset: GSE290476, NCBI GEO).
+## Contact
 
-**What I built:**
-- Complete 7-phase pipeline: FastQC → MultiQC → Trimmomatic → HISAT2 (GRCh38) → StringTie → DESeq2
-- 91–92% alignment rate across 9 samples covering 85,321 genes
-- Identified **7,954 DEGs** under bleomycin-induced senescence; findings consistent with SASP activation and DNA damage response pathways
-- Identified **2,579 DEGs** under PQQ senotherapeutic intervention
-- Full R visualization suite: PCA (PC1 = 38% variance), volcano plots, MA plots, hierarchical heatmaps
-
-**Stack:** Shell scripting, HISAT2, StringTie, R (DESeq2, ggplot2), Linux
-
----
-
-## 🛠 Skills
-
-| Area | Tools / Technologies |
-|---|---|
-| Bioinformatics | NGS analysis, Differential expression, Pipeline development |
-| Tools | FastQC, MultiQC, Trimmomatic, HISAT2, STAR, StringTie, DESeq2, BLAST, OMICSBOX |
-| Programming | Python, R, Perl, Shell scripting |
-| Systems | Linux/Unix, HPC environments, MySQL |
-
----
-
-## 🎓 Background
-
-- **MSc Bioinformatics** — Banasthali Vidyapith (2025–2027)
-- **BSc Life Sciences** — J.C. Bose University of Science and Technology, YMCA (2021–2024)
-- **Research Trainee** — ICAR-IASRI, New Delhi (May–Jun 2026): NGS pipelines, HPC workflows, comparative transcriptomics
-
----
-
-## 📄 CV & Contact
-
-- 📧 ritikazbist@gmail.com
-- 💼 [LinkedIn](https://linkedin.com/in/sikkibist)
-- 📄 [Download CV (PDF)](./Ritika_Bist_CV.pdf)
-
----
-
-*Looking for dissertation opportunities in computational biology / ML-driven bioinformatics (starting late 2026). Open to collaborations.*
+ritikazbist@gmail.com · [LinkedIn](https://linkedin.com/in/sikkibist)
